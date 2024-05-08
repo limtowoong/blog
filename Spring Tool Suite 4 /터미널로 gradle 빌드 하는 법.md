@@ -18,7 +18,7 @@ import -> Gradle -> Existing Gradle Project
 
 <br>
 
-# 시작
+# 빌드 과정
 
 <img src="https://github.com/limtowoong/blog/assets/104752202/a7fd91ed-6990-461c-a9e6-c781bbecab74" width="600" height="400"/>
 
@@ -75,3 +75,13 @@ cd로 libs 폴더에 이동하고 ls를 사용하면 jar 파일을 확인할 수
 ![image](https://github.com/limtowoong/blog/assets/104752202/78c2b913-5e82-4c30-8012-37a563b811b2)
 
 `java -jar .\demo-0.0.1-SNAPSHOT.jar(jar 파일 이름)`를 입력하면 빌드가 되는 것을 볼 수 있다.
+
+이제 웹 서버가 켜진 것을 볼 수 있다.
+
+# 빌드 취소하는 법
+
+ctl + c 를 누르면 입력창이 뜬다.
+
+`cd..`를 사용해서 `C:\Users\Office\Downloads\demo` 이 경로까지 온다.
+
+그 후 `.\gradle\ clean`와 `.\gradle\ build clean`을 순서대로 입력하면 웹 서버가 꺼진다.
