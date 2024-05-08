@@ -50,7 +50,7 @@ ls를 입력해서 하위 폴더 목록들을 보면 `gradlew`라는 폴더가 �
 
 <img src="https://github.com/limtowoong/blog/assets/104752202/25116b05-3966-4295-b8c1-d0d4db63b799" width="600" height="200"/>
 
-BUILD SUCCESSFUL이 나오면 성공한 것이다.
+`.\gradlew build`를 입력해서 BUILD SUCCESSFUL이 나오면 성공한 것이다.
 
 <br>
 
