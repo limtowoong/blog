@@ -84,4 +84,4 @@ ctl + c 를 누르면 입력창이 뜬다.
 
 `cd..`를 사용해서 `C:\Users\Office\Downloads\demo` 이 경로까지 온다.
 
-그 후 `.\gradle\ clean`와 `.\gradle\ build clean`을 순서대로 입력하면 웹 서버가 꺼진다.
+그 후 `gradle clean`와 `gradle build clean`을 순서대로 입력하면 웹 서버가 꺼진다.
